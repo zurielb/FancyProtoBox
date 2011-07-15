@@ -480,7 +480,7 @@ var FancyProtoBox = {};
 		
 		_processFrame: function() {					
 			var content_width = this.options.width ? this.options.width: this.options.frameWidth;
-			var content_height = this.options.height ? this.options.height :  this.options.frameWidth;
+			var content_height = this.options.height ? this.options.height :  this.options.frameHeight;
 			
 			var frame_element = '<iframe id="fancy_frame" onload="FancyProtoBox.showIframe()" name="fancy_iframe' + Math.round(Math.random()*1000) + '" frameborder="0" hspace="0" src="' + this.item.href + '"></iframe>';
 			
